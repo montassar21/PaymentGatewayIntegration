@@ -1,0 +1,271 @@
+*{
+    padding:0;
+    margin:0;
+}
+nav{
+    height:9.3vh;
+    background-color: #4C79B0;
+}
+img{
+    position: absolute;
+    top:1.2vh;
+    left:1.3vw;
+    width:7vh;
+    height:7vh;
+
+}
+nav ul{
+    margin-left: 85vh;
+    padding-top: 2.5vh;;
+
+}
+nav ul li{
+    display: inline;
+    font-size: 3.4vh;
+    border:0.2vh solid white;
+    padding:1vh; 
+    margin-left: 0.2vw;;
+    border-radius: 0.3vw;;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;;
+}
+nav ul li:hover{
+    background-color: #4C79B0;
+    transition: 1s;
+}
+.Main{
+    background-image: url("micheile-dot-com-ZVprbBmT8QA-unsplash.jpg");
+    background-size:contain;
+    height: 81.8vh;
+    width: auto;
+    background-repeat: no-repeat;
+}
+.par{
+    position: relative;
+    top:5vw;
+    padding-left: 60vw;
+    font-size: 2.4vw;;
+    color: #07467E;
+
+
+}
+.butt{
+    position: relative;
+    top:13vw;
+    left:70vw;
+    height:5vw;
+    width:10vw;
+    font-size: 1.2vw;
+    border-radius: 15px;
+    background-color: #4C79B0;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.butt a{
+    text-decoration: none;
+    color:white;
+}
+footer{
+   
+    height:9.3vh;
+    width:auto;
+    background-color: #4C79B0;
+    color: white;
+    text-align: center;
+    padding-top: 2vh;;
+    font-size: 1.5vw;;
+}
+@media  (max-width:850px) {
+    nav{
+        height:10vw;
+        background-color: #4C79B0;
+    }   
+    .butt{
+        font-size: 2.2vw;
+
+    }
+    nav ul{
+        top:-7.5vw;
+        margin-left: 29vw;
+    }
+    nav ul li{
+        font-size: 4vw;
+        padding:1vw; 
+        margin-left: 0.4vw;;
+    }
+    nav img{
+        width:9vw;
+        height:9vw;
+        padding-top: 0.5vw;
+    
+    }
+    .Main{
+        background-size:cover;
+        height:87vh;;
+    }
+    .par{
+        top:20vw;
+        padding-left: 6vw;
+        font-size: 6.5vw;;
+    
+    }
+    .butt{
+        top:24vw;
+        left:25vw;
+        height:10vw;
+        width:20vw;
+        font-size: 3.2vw;    
+    }
+    footer{
+   
+        height:5vh;
+        padding-top: 2.5vw;;
+        font-size: 2.5vw;;
+    }
+}
+body{
+    background-color: #ACD7F2;
+}
+#slider {
+    margin: 10px auto;
+    padding:5px;
+    width: 1400px;
+    max-width: 100%;
+    text-align: center;
+ }
+ #slider input[type=radio] {
+    display: none;
+ }
+ #slider label {
+    cursor:pointer;
+    text-decoration: none;
+ }
+ #slides {
+    border: 3px solid #ccc;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+ }
+ #overflow {
+    width: 100%;
+    overflow: hidden;
+ }
+ #slide1:checked ~ #slides .inner {
+    margin-left: 0;
+ }
+ #slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+ }
+ #slide3:checked ~ #slides .inner {
+    margin-left: -200%;
+ }
+ #slide4:checked ~ #slides .inner {
+    margin-left: -300%;
+ }
+ #slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height:60px;
+    height: 550px;
+ }
+ #slides .slide {
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+ }
+ #slides .slide_1 {
+    background-image: url("images/josh-appel-0nkFvdcM-X4-unsplash.jpg");
+    background-size: cover;
+    font-size: 25px;;
+ }
+ #slides .slide_2 {
+    background-image: url("images/jon-tyson-O7ke8N4kTpQ-unsplash.jpg");
+    background-size: cover;
+ }
+ #slides .slide_3 {
+    background: #007EA7;
+ }
+ #slides .slide_4 {
+    background: #00A8E8;
+ }
+ #controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+ }
+ #controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+ }
+ #controls label:hover {
+    opacity: 1;
+ }
+ #slide1:checked ~ #controls label:nth-child(2),
+ #slide2:checked ~ #controls label:nth-child(3),
+ #slide3:checked ~ #controls label:nth-child(4),
+ #slide4:checked ~ #controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float:right;
+    margin: 0 -50px 0 0;
+    display: block;
+ }
+ #slide1:checked ~ #controls label:nth-last-child(2),
+ #slide2:checked ~ #controls label:nth-last-child(3),
+ #slide3:checked ~ #controls label:nth-last-child(4),
+ #slide4:checked ~ #controls label:nth-last-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+ }
+ #bullets {
+    margin: 150px 0 0;
+    text-align: center;
+ }
+ #bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    background: #ccc;
+    margin: 0 10px;
+ }
+ #slide1:checked ~ #bullets label:nth-child(1),
+ #slide2:checked ~ #bullets label:nth-child(2),
+ #slide3:checked ~ #bullets label:nth-child(3),
+ #slide4:checked ~ #bullets label:nth-child(4) {
+    background: #444;
+ }
+ @media screen and (max-width: 900px) {
+    #slide1:checked ~ #controls label:nth-child(2),
+    #slide2:checked ~ #controls label:nth-child(3),
+    #slide3:checked ~ #controls label:nth-child(4),
+    #slide4:checked ~ #controls label:nth-child(1),
+    #slide1:checked ~ #controls label:nth-last-child(2),
+    #slide2:checked ~ #controls label:nth-last-child(3),
+    #slide3:checked ~ #controls label:nth-last-child(4),
+    #slide4:checked ~ #controls label:nth-last-child(1) {
+       margin: 0;
+    }
+    #slides {
+       max-width: calc(100% - 140px);
+       margin: 0 auto;
+    }
+ }
+ .slide-content{
+    position: relative;
+    top:-5vh;
+ }

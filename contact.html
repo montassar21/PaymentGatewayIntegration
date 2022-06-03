@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cont.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+    <title>Payment Gateway Integration</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+    <img src="logo_small.png" alt="theSparks">
+    <div class="contact">
+       <div class="conta">
+           <div class="leftcol">
+           <ul class="list">
+               <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <strong class="add">Address</strong>
+                <br>
+                <span>
+                 Teboulba Monastir Tunisie
+                </span>
+               </li>
+               <li>
+                <i class="fa-solid fa-phone"></i>
+                <strong class="pho">Phone </strong>
+                <br>
+                <span>
+                    +21653224190
+                </span>
+               </li>
+               <li>
+                <i class="fa solid fa-envelope"></i>                    
+                   <strong class="Ema">Email</strong>
+                   <br>
+                   <span>montassar.brahem@ensi-uma.tn</span>
+               </li>
+           </ul>
+           </div>
+           <div class="rightcol">
+               <form method="POST" onsubmit="sendEmail();reset(); return false;">
+                    <h3>Send message</h3>
+                   <input class="formm"type="text" id="name" placeholder="Your name" required>
+                   <input class="formm" type="email" id="email" placeholder="Your Email" required>
+                   <input class="formm" type="phone" id="phone" placeholder="Phone num" required>
+                   <textarea name="message" id="message" cols="20" rows="2" placeholder="How can I help you ?"></textarea>
+                   <button type="submit">Send</button>
+               </form>
+           </div>
+       </div>
+      </div>
+    <footer>
+        made with love by Montassar Brahem &copy 2022 
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

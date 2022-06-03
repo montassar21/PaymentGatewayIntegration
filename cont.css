@@ -1,0 +1,270 @@
+*{
+    padding:0;
+    margin:0;
+}
+nav{
+    height:9vh;
+    background-color: #4C79B0;
+}
+img{
+    position: absolute;
+    top:1vh;
+    left:1.3vw;
+    width:7vh;
+    height:7vh;
+
+}
+nav ul{
+    margin-left: 85vh;
+    padding-top: 2.5vh;;
+
+}
+nav ul li{
+    display: inline;
+    font-size: 3.4vh;
+    border:0.2vh solid white;
+    padding:1vh; 
+    margin-left: 0.2vw;;
+    border-radius: 0.3vw;;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;;
+}
+nav ul li:hover{
+    background-color: #4C79B0;
+    transition: 1s;
+}
+.Main{
+    background-image: url("micheile-dot-com-ZVprbBmT8QA-unsplash.jpg");
+    background-size:contain;
+    height: 81.8vh;
+    width: auto;
+    background-repeat: no-repeat;
+}
+.par{
+    position: relative;
+    top:5vw;
+    padding-left: 60vw;
+    font-size: 2.4vw;;
+    color: #07467E;
+
+
+}
+.butt{
+    position: relative;
+    top:13vw;
+    left:70vw;
+    height:5vw;
+    width:10vw;
+    font-size: 1.2vw;
+    border-radius: 15px;
+    background-color: #4C79B0;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.butt a{
+    text-decoration: none;
+    color:white;
+}
+footer{
+   
+    height:6.9vh;
+    width:auto;
+    background-color: #4C79B0;
+    color: white;
+    text-align: center;
+    padding-top: 2vh;;
+    font-size: 1.5vw;;
+}
+@media  (max-width:850px) {
+    nav{
+        height:10vw;
+        background-color: #4C79B0;
+    }   
+    .butt{
+        font-size: 2.2vw;
+
+    }
+    nav ul{
+        top:-7.5vw;
+        margin-left: 29vw;
+    }
+    nav ul li{
+        font-size: 4vw;
+        padding:1vw; 
+        margin-left: 0.4vw;;
+    }
+    nav img{
+        width:9vw;
+        height:9vw;
+        padding-top: 0.5vw;
+    
+    }
+    .Main{
+        background-size:cover;
+        height:87vh;;
+    }
+    .par{
+        top:20vw;
+        padding-left: 6vw;
+        font-size: 6.5vw;;
+    
+    }
+    .butt{
+        top:24vw;
+        left:25vw;
+        height:10vw;
+        width:20vw;
+        font-size: 3.2vw;    
+    }
+    footer{
+   
+        height:5vh;
+        padding-top: 2.5vw;;
+        font-size: 2.5vw;;
+    }
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    height:82.1vh;
+    background-color: rgb(81, 218, 235,0.4);
+    background: url(images/21.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.conta{
+    display: flex;
+    flex-direction: row;
+    padding: 3vw 0;
+    border-radius: 1.5vw;
+    justify-content: space-evenly;
+    overflow: hidden;
+    
+
+}
+.leftcol{
+    padding:0 0.5vw;
+    margin-top:-1vw;
+}
+.conta .leftcol .list{
+  display: flex;
+  flex-direction: column;
+
+}
+.conta .leftcol .list li i{
+    display: flex;
+    width:2.5vw;
+    height:2.5vw;
+    position: relative;
+    right:4vw;
+    top:3.1vw;
+    border-radius: 25px;
+    font-size: 1vw;
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.conta .leftcol .list li span{
+    align-items: center;
+    list-style: none;
+    font-size: 1.2vw;
+    color: white;
+    font-weight: bold;
+
+}
+.conta .leftcol .list li{
+    margin: 1vw;
+    font-size: 1vw;
+    list-style: none;
+}
+.conta .leftcol .list li strong{
+    color:#37869e;
+    font-size: 1.6vw;}
+.rightcol{
+    height: 27vw;
+    width:27vw;
+    justify-content: space-around;
+    background-color: white;
+    padding:0.5vw 1.5vw;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.rightcol form{
+    display: flex;
+    flex-direction: column;
+}
+.rightcol form input{
+    padding: 0.7vw 0;
+    margin:0.7vw 0;
+    font-size: 1vw;
+    border-top:black;
+    border-left:black;
+    border-right:black;
+    background-color: transparent;
+    outline: none;
+    transition:.1s ease-in;
+
+}
+.rightcol form input:focus{
+    border-bottom: 2px solid black;
+    background-color: transparent;
+
+}
+.rightcol form input:active{
+    border:none;
+    background-color: transparent;
+    
+}
+
+.formm{
+    display: flex;
+    color:black;
+
+}
+.rightcol form h3{
+    font-size: 1.9vw;
+
+    margin:0.6vw 0;
+    text-align: center;
+
+}
+.get{
+    position: relative;
+    top:2vw;
+    margin:0;
+    margin-bottom: 4vw;
+}
+textarea{
+    padding-top: 0.1vw;
+    margin:0.5vw 0;
+    min-width:24vw;
+    max-width:24vw;
+    min-height:3vw;
+    max-height:3vw;
+    font-size: 1vw;
+    border-top:black;
+    border-left:black;
+    border-right:black;
+outline: none;
+}
+.rightcol form button{
+    position: relative;
+    top:1vw;
+    left:8vw;
+    width:8vw;
+    align-items: center;
+    text-align:center;
+    padding: 1vw 1.25vw;
+    border: none;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    color: #fff0e6;
+    border-radius: 3vw;
+    cursor: pointer;
+    background:linear-gradient(147deg,#110f0d 0%,#302c2c 74%);  
+}

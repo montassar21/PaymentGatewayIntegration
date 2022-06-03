@@ -1,0 +1,150 @@
+*{
+    padding:0;
+    margin:0;
+}
+nav{
+    height:9vh;
+    background-color: #4C79B0;
+}
+img{
+    position: absolute;
+    top:1vh;
+    left:1.3vw;
+    width:7vh;
+    height:7vh;
+
+}
+nav ul{
+    margin-left: 85vh;
+    padding-top: 2.5vh;;
+
+}
+nav ul li{
+    display: inline;
+    font-size: 3.4vh;
+    border:0.2vh solid white;
+    padding:1vh; 
+    margin-left: 0.2vw;;
+    border-radius: 0.3vw;;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;;
+}
+nav ul li:hover{
+    background-color: #4C79B0;
+    transition: 1s;
+}
+.Main{
+    background-image: url("images/micheile-dot-com-ZVprbBmT8QA-unsplash.jpg");
+    background-size:contain;
+    height: 81.8vh;
+    width: auto;
+    background-repeat: no-repeat;
+}
+.par{
+    position: relative;
+    top:5vw;
+    padding-left: 60vw;
+    font-size: 2.4vw;;
+    color: #07467E;
+
+
+}
+.butt{
+    position: relative;
+    top:13vw;
+    left:70vw;
+    height:5vw;
+    width:10vw;
+    font-size: 1.2vw;
+    border-radius: 15px;
+    background-color: #4C79B0;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.butt a{
+    text-decoration: none;
+    color:white;
+}
+footer{
+   
+    height:6.9vh;
+    width:auto;
+    background-color: #4C79B0;
+    color: white;
+    text-align: center;
+    padding-top: 2vh;;
+    font-size: 1.5vw;;
+}
+@media  (max-width:850px) {
+    nav{
+        height:10vw;
+        background-color: #4C79B0;
+    }   
+    .butt{
+        font-size: 2.2vw;
+
+    }
+    nav ul{
+        top:-7.5vw;
+        margin-left: 29vw;
+    }
+    nav ul li{
+        font-size: 4vw;
+        padding:1vw; 
+        margin-left: 0.4vw;;
+    }
+    nav img{
+        width:9vw;
+        height:9vw;
+        padding-top: 0.5vw;
+    
+    }
+    .Main{
+        background-size:cover;
+        height:87vh;;
+    }
+    .par{
+        top:20vw;
+        padding-left: 6vw;
+        font-size: 6.5vw;;
+    
+    }
+    .razorpay-embed-btn{
+        position: relative;
+        top:30vw;
+        left:5vh;
+        height:12vh;
+        width:10vw;
+        font-size: 5.2vw;
+        border-radius: 15px;
+        border: none;
+        font-weight: bold;
+        text-decoration: none;    
+        color:white;
+        cursor: pointer;
+    }
+    footer{
+   
+        height:5vh;
+        padding-top: 2.5vw;;
+        font-size: 2.5vw;;
+    }
+}
+.razorpay-embed-btn{
+    position: relative;
+    top:8vw;
+    left:70vw;
+    height:5vw;
+    width:10vw;
+    font-size: 1.2vw;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;    
+    color:white;
+    cursor: pointer;
+}
